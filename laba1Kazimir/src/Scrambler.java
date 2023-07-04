@@ -16,6 +16,7 @@ public class Scrambler {
         for (int i = 0; i < k; i++) {
             inputSignal[i] = random.nextInt(2) ;
             System.out.print(inputSignal[i] + ", ");
+            System.out.println("For git testing");
         }
     }
 }
